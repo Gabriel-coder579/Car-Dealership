@@ -36,7 +36,7 @@ def show_cars():
     # Dictionary mapping car names to [Price, Image URL]
     cars = {
         "Porsche Cayenne 2026": [250000, "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=800"],
-        "Audi RSQ8 2026": [200000, "https://images.unsplash.com/photo-1606152421802-db97b9c7a11b?auto=format&fit=crop&q=80&w=800"],
+        "Audi RS 7 2026": [200000, "https://images.unsplash.com/photo-1606152421802-db97b9c7a11b?auto=format&fit=crop&q=80&w=800"],
         "Mercedes Benz GLE Coupe AMG 2026": [150000, "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=800"],
         "Mercedes Benz E63 AMG 2026": [190000, "https://images.unsplash.com/photo-1622199024103-60589a194916?auto=format&fit=crop&q=80&w=800"]
     }
@@ -94,3 +94,4 @@ elif st.session_state.step == "showroom":
 elif st.session_state.step == "payment":
 
     payment()
+
